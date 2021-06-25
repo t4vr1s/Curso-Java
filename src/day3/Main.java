@@ -13,10 +13,10 @@ public class Main {
 
         // array de strings
         String[] nombres = {"Eduardo", "Graci", "Fabian", "22", "Saludo"};
-        //                      0         1         2       3
+        //posicion              0         1         2       3       4
 
         // array de enteros
-        int[] numeros = {0,1,2,3,4,5,6,7,8,9};
+        int[] numeros = {0, 1, 2, 3, 4, 5, 6, 7, 8, 9};
 
         System.out.println(nombres[1]);
         System.out.println(numeros[1]);
@@ -96,6 +96,7 @@ public class Main {
     static int sumar(int num1, int num2){
         return num1 + num2;
     }
+
     // sobre carga de metodos(funcion)
     static double sumar(double num1, double num2){
         return num1 + num2;
@@ -107,5 +108,25 @@ public class Main {
     }
 
 
+    // ejercicio fizzbuzz
+    /*
+        encontrar multiplos de 3 escriben fizz, 5 escriben buzz,  3 y 5 escriben fizzbuzz y
+        los demas escriben el numero correspondiente
+        pista condicional if con el modulo % parecido a los pares.
+        ejemplo de salida:
+        1
+        2
+        fizz
+        4
+        buzz
+        fizz
+        7
+        8
+        fizz
+        buzz
+        ...
+        14
+        fizbuzz
+     */
 }
 
