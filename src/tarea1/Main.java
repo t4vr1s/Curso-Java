@@ -10,18 +10,27 @@ public class Main {
         Scanner sc = new Scanner(System.in);
         String nombre;
         int edad;
-            System.out.println("INGRESE SU NOMBRE");
-            nombre=sc.next();
-            System.out.println( "INGRESE SU EDAD");
-            edad= sc.nextInt();
-        if ( edad > 18) {
-            System.out.println(nombre + " Eres Mayor de edad");
-        }
-        if (edad < 18 ){
-            System.out.println(nombre + " Eres Menor de edad");
-        }if(edad > 65 ){
-            System.out.println(" Y ademas adulto  mayor ");
-        }
+        int op;
+
+while(true){
+    System.out.println("INGRESE SU NOMBRE");
+    nombre=sc.next();
+    System.out.println( "INGRESE SU EDAD");
+    edad= sc.nextInt();
+    if ( edad > 18 && edad < 65) {
+        System.out.println(nombre + " Eres Mayor de edad  y le faltan  "+(65 - edad)+ "  para ser adulto mayor");
+    }
+    else if (edad < 18 ){
+        System.out.println(nombre + " Eres Menor de edad");
+    }else if(edad > 65 ){
+        System.out.println(nombre + " eres adulto   mayor ");
+    }
+
+
+}
+
+
+
 
 
 
