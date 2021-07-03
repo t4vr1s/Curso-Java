@@ -25,19 +25,7 @@ while(true){
     }else if(edad > 65 ){
         System.out.println(nombre + " eres adulto   mayor ");
     }
-
-
 }
-
-
-
-
-
-
-
-
-
-
-        }
+    }
     }
 
